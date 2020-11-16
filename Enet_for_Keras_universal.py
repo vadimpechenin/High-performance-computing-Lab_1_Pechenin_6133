@@ -55,7 +55,7 @@ fileNameTest, fileNameTrain, fileNameTest_cat, fileNameTrain_cat, fileNameResult
 
 mat1 = scipy.io.loadmat(baseFolder+fileNameTest+ ".mat")
 mat1_ = scipy.io.loadmat(baseFolder+fileNameTest_cat+ ".mat")
-for i in range(1):
+for i in range(6):
     fileName_train = fileNameTrain + str(i+1)+ name_file+str(fileIndex)+".mat" #1200
     fileName_train_ = fileNameTrain_cat + str(i + 1) + name_file + str(fileIndex) + ".mat"
     mat = scipy.io.loadmat(baseFolder+fileName_train)
